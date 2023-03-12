@@ -17,5 +17,8 @@ puts "Creating freebies..."
 # * and a freebie belongs to a company.                         *
 # ***************************************************************
 # Create freebies Here
+20.times do
+    Freebie.create()
+end
 
 puts "Seeding done!"
